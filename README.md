@@ -1,6 +1,8 @@
 # docker-postgis
 
+Test on pwd :
 
+http://play-with-docker.com/?stack=https://raw.githubusercontent.com/lejedi76/docker-postgis/develop/docker-compose.yml
 
 A simple docker container that runs PostGIS
 
