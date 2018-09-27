@@ -19,6 +19,10 @@ services:
       - ALLOW_IP_RANGE=0.0.0.0/0
     ports:
       - 25432:5432
+    expose:
+      - 25432
+    entrypoint: >
+      bash -c "/docker-entrypoint.sh"
     restart: unless-stopped
 
   dbbackups:
